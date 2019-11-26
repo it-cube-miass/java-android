@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Initial page](README.md)
-* [Вступление](vstuplenie.md)
+* [Множественные активности](myltiple-activity.md)
 
 ## 01
 
