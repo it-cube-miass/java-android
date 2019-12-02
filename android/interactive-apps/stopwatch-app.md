@@ -96,7 +96,7 @@ protected void onCreate(Bundle savedInstanceState) {
 ```
 
 ### Создание таймера с помощью CountDownTimer
-Нам необходимо увеличивать значение seconds на 1 каждую секунду, когда таймер запущен. Для создания таймера есть множество способов с различной реализацией, мы воспользуемся CountDownTimer и создадим таймер обратного отчета.
+Нам необходимо увеличивать значение seconds на 1 каждую секунду, когда таймер запущен. Для создания таймера есть множество способов с различной реализацией, мы воспользуемся [CountDownTimer](https://developer.android.com/reference/android/os/CountDownTimer) и создадим таймер обратного отчета.
 ```java
 private CountDownTimer timer = new CountDownTimer(Long.MAX_VALUE, 1000) {
 
