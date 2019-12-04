@@ -26,7 +26,7 @@ android:configChanges="изменение_конфигурации"
 ```xml
 <activity 
     android:name=".MainActivity"
-    android:configChanges="orientation|screenSize"> <!-- Знак | означает, что игнорируются оба вида изменения кон- фигурации. -->
+    android:configChanges="orientation|screenSize"> <!-- Знак | означает, что игнорируются оба вида изменения конфигурации. -->
     <intent-filter>
         <action android:name="android.intent.action.MAIN" />
 
