@@ -3,6 +3,7 @@
 * [Введение](README.md)
 * [A. Построение интерактивных приложений](android/interactive-apps/README.md)
   * [Приложение Stopwatch](android/interactive-apps/stopwatch-app.md)
+  * [Установка обработчика событий программно](android/interactive-apps/adding-of-listeners-in-activity.md)
 * [A. Жизненный цикл активности](android/activity-lifecycle/README.md)
   * [Cостояния активности. Исправление Stopwatch](android/activity-lifecycle/lifecycle.md)
 * [A. Множественные активности](myltiple-activity/README.md)
