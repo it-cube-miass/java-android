@@ -6,6 +6,7 @@
   * [Установка обработчика событий программно](android/interactive-apps/adding-of-listeners-in-activity.md)
 * [A. Жизненный цикл активности](android/activity-lifecycle/README.md)
   * [Cостояния активности. Исправление Stopwatch](android/activity-lifecycle/lifecycle.md)
+* [A. Отладка приложений Android]()
 * [A. Множественные активности](myltiple-activity/README.md)
   * [Запуск активностей из других приложений](myltiple-activity/06.md)
 
