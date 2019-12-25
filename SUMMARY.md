@@ -2,7 +2,7 @@
 
 * [Введение](README.md)
 * [J. Введение в ООП](java/oop/README.md)
-  * [Игра GuessGame](java/oop/guess-game.md)
+  * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
 * [A. Построение интерактивных приложений](android/interactive-apps/README.md)
   * [Приложение Stopwatch](android/interactive-apps/stopwatch-app.md)
