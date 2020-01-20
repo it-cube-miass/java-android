@@ -5,6 +5,7 @@
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
 * [J. Наследование и полиморфизм](java/inheritance/README.md)
+  * [J. Класс Object](java/inheritance/object.md)
 * [A. Построение интерактивных приложений](android/interactive-apps/README.md)
   * [Приложение Stopwatch](android/interactive-apps/stopwatch-app.md)
   * [Установка обработчика событий программно](android/interactive-apps/adding-of-listeners-in-activity.md)
