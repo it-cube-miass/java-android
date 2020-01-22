@@ -6,7 +6,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Main {
-    static final String FILE_NAME = "test.txt";
 
     public static void main(String[] args) {
         writeToFile("Hello!");
@@ -18,7 +17,7 @@ public class Main {
         FileWriter fw = null;
 
         try {
-            fw = new FileWriter(FILE_NAME);
+            fw = new FileWriter("test.txt");
             for (int i = 0; i < str.length(); i++) {
                 fw.write(str.charAt(i));
             }
@@ -40,7 +39,7 @@ public class Main {
         FileReader fr = null;
 
         try {
-            fr = new FileReader(FILE_NAME);
+            fr = new FileReader("test.txt");
             int code;
             while ((code = fr.read()) != -1) {
                 sb.append(Character.toChars(code));
