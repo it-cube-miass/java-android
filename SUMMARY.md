@@ -2,7 +2,8 @@
 
 * [Введение](README.md)
 * [Начало](01-begining/README.md)
-  * [✍Почему именно Java и Android?](01-begining/why-java-and-android.md)
+  * [❗Почему именно Java и Android?](01-begining/why-java-and-android.md)
+  * [✍ Как Java и Android работают вместе](01-begining/how-java-and-android-work.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
