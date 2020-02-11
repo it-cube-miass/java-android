@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Введение](README.md)
+* [Начало](01-begining/README.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
