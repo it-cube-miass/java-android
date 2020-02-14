@@ -19,11 +19,11 @@
 
 Добавьте эти два новых метода внутри класса **MainActivity** после метода **onCreate**
 ```java
-    void loadConstraintLayout(View v) {
+    public void loadConstraintLayout(View v) {
         setContentView(R.layout.activity_main);
     }
 
-    void loadTableLayout(View v) {
+    public void loadTableLayout(View v) {
         setContentView(R.layout.my_table_layout);
     }
 ```
@@ -37,9 +37,9 @@ import android.view.View;
 ```
 А Android Studio больше не помечает класс View ошибкой.
 
-Однако второй метод все еще содержит ошибку. Проблема заключается в том, что метод вызывает метод **setContentView** для загрузки нового макета ```R.layout.my_table_layout```. Поскольку этот макет еще не существует, выдается ошибка. Вы можете закомментировать этот вызов, чтобы удалить ошибку, пока мы не создадим файл и не разработаем макет пользовательского интерфейса. Добавьте двойную косую черту ```//``` перед кодом на этой строчке. 
+Однако второй метод все еще содержит ошибку. Проблема заключается в том, что вызывается метод **setContentView** для загрузки нового макета ```R.layout.my_table_layout```. Поскольку этот макет еще не существует, выдается ошибка. Вы можете закомментировать этот вызов, чтобы удалить ошибку, пока мы не создадим файл и не разработаем макет пользовательского интерфейса. Добавьте двойную косую черту ```//``` перед кодом на этой строчке. 
 ```java
-    void loadTableLayout(View v) {
+    public void loadTableLayout(View v) {
 //        setContentView(R.layout.my_table_layout);
     }
 ```
