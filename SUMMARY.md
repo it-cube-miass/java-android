@@ -17,7 +17,7 @@
   * [Представление данных с помощью TableLayout](04-getting-started-with-layouts/data-with-table-layout.md)
 * [Красивые макеты с CardView и ScrollView](05-beautiful-layouts/README.md)
   * [Кратко про основные атрибуты](05-beautiful-layouts/attributes-quick-summary.md)
-  * [❗Создание UI с помощью CardView и ScrollView](05-beautiful-layouts/building-ui-with.md)
+  * [Создание UI с помощью CardView и ScrollView](05-beautiful-layouts/building-ui-with.md)
   * [❗Темы и material design]()
   * [❗Создание эмулятора планшета]()
 * [J. Введение в ООП](java/oop/README.md)
