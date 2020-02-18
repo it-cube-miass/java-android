@@ -22,9 +22,9 @@ android:width="150dp"
 
 Дополнительный расчет, который Android-устройство будет использовать при принятии решения о том, насколько большим будет ваш шрифт, основанный на значении sp, который вы используете, - это собственные настройки размера шрифта пользователя. Если вы тестируете свое приложение на устройствах и эмуляторах с обычными шрифтами, то пользователь, у которого настройки шрифта установлены на большие, увидит что-то отличное от того, что вы видели во время тестирования.
 
-Если вы хотите поиграться с настройками размера шрифта, вашего Android устройства, вы можете это сделать, выбрав Settings | Display | Font size
+Если вы хотите поиграться с настройками размера шрифта, вашего Android устройства, вы можете это сделать, выбрав **Settings | Display | Font size**
 
-![font size]()
+![](assets/font-size.png)
 
 Как мы видим, есть довольно много настроек, и если вы попробуете выставить огромный, то и разница будет огромная! :)
 
@@ -51,7 +51,7 @@ android:layout_height="wrap_content"
 ## Использование внутренних и внешних отступов
 Если вы когда-либо занимались веб-дизайном, то вам должны быть очень хорошо знакомы два следующих термина. Внутренний отступ (padding) - это пространство от края виджета до начала содержимого в виджете. Внешний отступ (margin) - это пространство за пределами виджета, которое остается между другими виджетами, включая поля других виджетов, если они есть. Вот визуальное представление:
 
-![margin padding]()
+![](assets/margin-padding.png)
 
 Мы можем их установить простым способом:
 ```xml
@@ -86,22 +86,22 @@ android:paddingLeft="5dp"
 <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight=".2"
+        android:layout_weight=".1"
         android:text="one tenth" />
 
 <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight=".3"
-        android:text="two tenths" />
+        android:text="three tenths" />
 
 <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight=".5"
-        android:text="three tenths" />
+        android:layout_weight=".6"
+        android:text="six tenths" />
 ```
-![layout_weight]()
+![](assets/layout-weight.png)
 
 Обратите внимание, что все атрибуты layout_height имеют значение 0dp. Фактически layout_weight заменяет свойство layout_height. Контекст, в котором мы используем layout_weight, важен, иначе он не будет работать. Мы скоро увидим это в реальном проекте.
 
@@ -111,7 +111,7 @@ android:paddingLeft="5dp"
 ```xml
 android:gravity="left|center_vertical"
 ```
-![gravity]()
+![](assets/gravity.png)
 
 Обратите внимание, что содержимое виджета (в данном случае текст кнопки) действительно выровнено слева и по центру вертикально.
 
@@ -119,7 +119,7 @@ android:gravity="left|center_vertical"
 ```xml
 android:layout_gravity="left"
 ```
-![layout_gravity]()
+![](assets/layout-gravity.png)
 
 layout_gravity позволяет воздействовать на различные виджеты, в пределах одного элемента-родителя, так же, как если бы родитель имел несколько различных гравитаций.
 
