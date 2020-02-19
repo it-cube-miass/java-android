@@ -21,7 +21,7 @@
   * [✍ Темы и material design](05-beautiful-layouts/themes-and-material-design.md)
   * [Создание эмулятора планшета](05-beautiful-layouts/creating-tablet-emulator.md)
 * [Stack, Heap и Garbage Collector](12-stack-heap-gc/README.md)
-  * [❗Все элементы UI Android - классы](12-stack-heap-gc/all-ui-elements-classes.md)
+  * [Все элементы UI Android - классы](12-stack-heap-gc/all-ui-elements-classes.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
