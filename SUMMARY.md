@@ -24,7 +24,8 @@
   * [Все элементы UI Android - классы](12-stack-heap-gc/all-ui-elements-classes.md)
 * [Анонимные классы - оживление виджетов](13-anonymous-classes/README.md)
   * [Объявление и инициализация объектов](13-anonymous-classes/declaring-and-initializing-objects.md)
-  * [❗Создание виджетов UI из Java]
+  * [Создание виджетов UI из Java](13-anonymous-classes/creating-ui-widgets-from-java.md)
+  * [❗Исследование панели Palette 1]()
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
