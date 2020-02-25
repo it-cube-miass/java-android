@@ -30,6 +30,8 @@
   * [Исследование панели Palette 2](13-anonymous-classes/exploring-palette-2.md)
   * [Приложение Widget Exploration](13-anonymous-classes/widget-exploration-app.md)
   * [❗Преобразование в ConstraintLayout]()
+* [Диалоговые окна в Android](14-dialog-windows/README.md)
+  * [❗Диалоговые окна]()
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
