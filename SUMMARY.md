@@ -32,7 +32,7 @@
   * [❗Преобразование в ConstraintLayout]()
 * [Диалоговые окна в Android](14-android-dialog-windows/README.md)
   * [Диалоговые окна](14-android-dialog-windows/dialog-windows.md)
-  * [❗Приложение Note to self]()
+  * [Приложение Note to self](14-android-dialog-windows/note-to-self.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
