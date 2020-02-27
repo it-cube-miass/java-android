@@ -39,6 +39,7 @@
 * [J. Наследование и полиморфизм](java/inheritance/README.md)
   * [Класс Object](java/inheritance/object.md)
   * [Модификаторы доступа](java/inheritance/access-modifiers.md)
+  * [Соответствие IS-A](java/inheritance/is-a-has-a.md)
 * [A. Построение интерактивных приложений](android/interactive-apps/README.md)
   * [Приложение Stopwatch](android/interactive-apps/stopwatch-app.md)
   * [Установка обработчика событий программно](android/interactive-apps/adding-of-listeners-in-activity.md)
