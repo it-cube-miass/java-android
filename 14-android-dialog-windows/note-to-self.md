@@ -243,6 +243,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 ```
 Далее мы установим сообщение диалога с помощью ```builder```. Затем мы напишем анонимный класс для обработки кликов на ```btnCancel```. В переопределенном методе **onClick** мы просто вызовем метод **dismiss**, который является публичным методом **DialogFragment**, чтобы закрыть диалоговое окно. Это как раз то, что нам нужно, если пользователь нажмет кнопку ```Cancel```.
+
 ```java
         builder.setView(dialogView).setMessage("Add a new note");
 
