@@ -165,7 +165,7 @@ public class Note {
 1. Создайте новый макет в папке **layout** c именем ```dialog_show_note``` и корневым элементом **androidx.constraintlayout.widget.ConstraintLayout**.
 2. Cледуя остальным инструкциям, создайте следующий макет
 
-![](assets/dialog-show-note.png)
+![](assets/dialog-show.png)
 
 3. Перетащите три **TextView**, вертикально выровненные по верхней части макета.
 4. Затем перетащите еще один TextView, по центру, чуть ниже трех предыдущих **TextView**.
@@ -186,7 +186,7 @@ public class Note {
 | TextView (center)     | textSize | 24sp                   |
 | TextView (left)       | id       | txtDescription         |
 | Button                | id       | btnOk                  |
-| Button (правый)       | text     | @string/ok_button      |
+| Button                | text     | @string/ok_button      |
 
 > Вам может захотеться изменить позиции виджетов, после изменения атрибутов. Можете это быстро сделать так: нажмите кнопку **Clear all Constraints**, измените расположение элементов в макете, и снова нажмите кнопку **Infer Constraints**.
 
