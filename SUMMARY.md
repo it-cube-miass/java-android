@@ -45,7 +45,7 @@
   * [Изменения в приложении Note to Self](15-arraylist-map/note-to-self-app.md)
 * [Адаптеры и переработчики](16-adapters-and-recyclers/README.md)
   * [RecyclerView и RecyclerAdapter](16-adapters-and-recyclers/recyclerview-and-recycleradapter.md)
-  * [❗Добавление RecyclerView и RecyclerAdapter](16-adapters-and-recyclers/adding-recyclerview-and-recycleradapter.md)
+  * [Добавление RecyclerView и RecyclerAdapter](16-adapters-and-recyclers/adding-recyclerview-and-recycleradapter.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
