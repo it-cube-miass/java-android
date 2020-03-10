@@ -132,13 +132,13 @@ return new ListItemHolder(itemView);
 
     String statusText = "";
     if (note.isIdea()) {
-        statusText += R.string.idea_text + " ";
+        statusText += mainActivity.getString(R.string.idea_text) + " ";
     }
     if (note.isTodo()) {
-        statusText += R.string.todo_text + " ";
+        statusText += mainActivity.getString(R.string.todo_text) + " ";
     }
     if (note.isImportant()) {
-        statusText += R.string.important_text + " ";
+        statusText += mainActivity.getString(R.string.important_text) + " ";
     }
     holder.status.setText(statusText);
 ```
