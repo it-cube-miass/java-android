@@ -46,6 +46,8 @@
 * [Адаптеры и переработчики](16-adapters-and-recyclers/README.md)
   * [RecyclerView и RecyclerAdapter](16-adapters-and-recyclers/recyclerview-and-recycleradapter.md)
   * [Добавление RecyclerView и RecyclerAdapter](16-adapters-and-recyclers/adding-recyclerview-and-recycleradapter.md)
+* [Сохранение и обмен данными](17-data-persistence-and-sharing/README.md)
+  * [❗Android Intents](17-data-persistence-and-sharing/android-intents.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
