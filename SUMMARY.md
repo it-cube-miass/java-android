@@ -52,7 +52,7 @@
   * [Сохранение данных с помощью SharedPreferences](17-data-persistence-and-sharing/persisting-data-with-shared-preferences.md)
   * [Реализация сохранения настроек в Note to Self](17-data-persistence-and-sharing/making-settings-persist.md)
   * [Более продвинутое сохранение](17-data-persistence-and-sharing/more-advanced-persistence.md)
-  * [❗Сохранение заметок в Note to Self](17-data-persistence-and-sharing/backing-up-user-data.md)
+  * [Сохранение заметок в Note to Self](17-data-persistence-and-sharing/backing-up-user-data.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
