@@ -55,6 +55,7 @@
   * [Сохранение заметок в Note to Self](17-data-persistence-and-sharing/backing-up-user-data.md)
 * [Локализация](18-localization/README.md)
   * [Добавление локализации в Note to Self](18-localization/localization-note-to-self.md)
+  * [❗Запуск Note to Self](18-localization/running-note-to-self.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
