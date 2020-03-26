@@ -58,7 +58,7 @@
   * [Запуск Note to Self](18-localization/running-note-to-self.md)
 * [Анимация и интерполяция](19-animations-interpolations/README.md)
   * [Анимация в Android](19-animations-interpolations/animations-in-android.md)
-  * [❗Демонстрационное приложение Animations](19-animations-interpolations/demo-app-animations.md)
+  * [Демонстрационное приложение Animation Demo](19-animations-interpolations/demo-app-animations.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
