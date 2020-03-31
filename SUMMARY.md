@@ -67,6 +67,8 @@
   * [Создание растровых изображений](20-drawing-graphics/creating-bitmaps.md)
   * [Манипулирование изображениями](20-drawing-graphics/manipulating-bitmaps.md)
   * [Приложение Manipulating Bitmaps](20-drawing-graphics/manipulation-demo-app.md)
+* [Потоки](21-threads/README.md)
+  * [❗Приложение Live Drawing](21-threads/live-drawing-project.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
