@@ -165,7 +165,7 @@ public class Note {
 1. Создайте новый макет в папке **layout** c именем ```dialog_show_note``` и корневым элементом **androidx.constraintlayout.widget.ConstraintLayout**.
 2. Cледуя остальным инструкциям, создайте следующий макет
 
-![](assets/dialog-show.png)
+![](assets/dialog-s.png)
 
 
 3. Перетащите три **TextView**, вертикально выровненные по верхней части макета.
