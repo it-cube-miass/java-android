@@ -74,7 +74,7 @@
 * [Обработка касаний экрана](22-handling-screen-touches/README.md)
   * [Добавление кнопок](22-handling-screen-touches/adding-custom-buttons.md)
   * [Реализация эффекта частиц](22-handling-screen-touches/implementing-particle-effect.md)
-  * [❗Обработка прикосновений](22-handling-screen-touches/handling-touches.md)
+  * [Обработка прикосновений](22-handling-screen-touches/handling-touches.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
