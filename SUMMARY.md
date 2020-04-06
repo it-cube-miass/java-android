@@ -69,7 +69,7 @@
   * [Приложение Manipulating Bitmaps](20-drawing-graphics/manipulation-demo-app.md)
 * [Потоки](21-threads/README.md)
   * [Приложение Live Drawing](21-threads/live-drawing-app.md)
-  * [❗Кодирование MainActivity](21-threads/coding-main-activity.md)
+  * [Кодирование MainActivity](21-threads/coding-main-activity.md)
   * [❗Кодирование LiveDrawingView](21-threads/coding-live-drawing-view.md)
 * [Обработка касаний экрана](22-handling-screen-touches/README.md)
   * [Добавление кнопок](22-handling-screen-touches/adding-custom-buttons.md)
