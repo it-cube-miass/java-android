@@ -72,7 +72,7 @@
   * [Кодирование MainActivity](21-threads/coding-main-activity.md)
   * [Кодирование LiveDrawingView](21-threads/coding-live-drawing-view.md)
   * [Игровой цикл](21-threads/game-loop.md)
-  * [❗Потоки]()
+  * [Потоки](21-threads/threads.md)
   * [❗Игровой цикл с потоками]()
 * [Обработка касаний экрана](22-handling-screen-touches/README.md)
   * [Добавление кнопок](22-handling-screen-touches/adding-custom-buttons.md)
