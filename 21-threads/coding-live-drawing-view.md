@@ -12,7 +12,7 @@ public class LiveDrawingView extends SurfaceView {
 
 Вот скриншот, показывающий ошибку в классе LiveDrawingView:
 
-![](assets/error-surface-view.png)
+![](assets/error-constructor.png)
 
 Ошибка в **MainActivity** более очевидна; мы вызываем метод, которого не существует. Однако ошибка, показанная на скриншоте, менее понятна. Давайте теперь обсудим ошибку в **LiveDrawingView**.
 
