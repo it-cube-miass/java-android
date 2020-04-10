@@ -3,21 +3,21 @@
 Добавьте следующие переменные экземпляра в класс **LiveDrawingView**:
 ```java
     private RectF resetButton;
-    private RectF togglePauseButton;
+    private RectF pauseButton;
 ```
 Теперь у нас есть два экземпляра **RectF**. Эти объекты содержат четыре координаты с плавающей точкой каждый, по одной координате для каждого угла наших двух кнопок.
 
 Инициализируем их в конструкторе **LiveDrawingView**:
 ```java
     resetButton = new RectF(0, 0, 100, 100);
-    togglePauseButton = new RectF(0, 150, 100, 250);
+    pauseButton = new RectF(0, 150, 100, 250);
 ```
 Если вы представите координаты на экране, то поймете, что они находятся в левом верхнем углу, а кнопка паузы находится чуть ниже кнопки сброса.
 
 Теперь мы можем нарисовать кнопки. Добавьте эти строки кода в метод **draw** класса **LiveDrawingView**:
 ```java
     canvas.drawRect(resetButton, paint);
-    canvas.drawRect(togglePauseButton, paint);
+    canvas.drawRect(pauseButton, paint);
 ```
 Наш код для этого использует переопределенную версию метода **drawRect**, и мы просто передаем в него наши два экземпляра **RectF**. Теперь наши кнопки будут выведены на экран.
 

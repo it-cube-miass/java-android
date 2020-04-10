@@ -2,7 +2,7 @@
 
 Вот изображение как это будет выглядеть:
 
-![](assets/result-1.png)
+![](assets/result.png)
 
 Просто для пояснения, каждый из цветных квадратов является экземпляром класса **Particle**, а все экземпляры частиц контролируются и удерживаются классом **ParticleSystem**. Кроме того, пользователь будет создавать несколько (сотни) экземпляров **ParticleSystem**, рисуя их пальцем. Все эти экземпляры **ParticleSystem** будут появляться в виде точек или блоков, пока пользователь не нажмет кнопку паузы, и они не оживут. Мы рассмотрим код достаточно подробно, чтобы вы могли изменить в нем размер, цвет, скорость и количество экземпляров **Particle** и **ParticleSystem**.
 
@@ -77,18 +77,16 @@ public class ParticleSystem {
 
         for (int i = 0; i < numParticles; i++) {
             float angle = random.nextInt(360);
-            angle = angle * 3.14f / 180.f;
+            angle = angle * 3.14f / 180;
             
-            float speed = (random.nextFloat() / 10); // медленные частицы
-//            float speed = (random.nextInt(10)+1); // быстрые частицы
+            float speed = (random.nextInt(10)+1); // быстрые частицы
             
             PointF direction = new PointF((float)Math.cos(angle) * speed, (float)Math.sin(angle) * speed);
             particles.add(new Particle(direction));
-
         }
     }
 ```
-Когда мы вызываем init, мы можем немного повеселиться, инициализируя сумасшедшее количество частиц. Сам метод состоит только из одного цикла for, который выполняет всю работу.
+Когда мы вызываем init, мы можем немного повеселиться, инициализируя сумашедшее количество частиц. Сам метод состоит только из одного цикла for, который выполняет всю работу.
 
 Во-первых, случайное число между 0 и 359 генерируется и сохраняется в ```angle```. Далее, есть немного математики, и мы умножаем угол на 3,14 и делим на 180. Это превращает угол в градусах в радианное измерение, что требуется для класса **Math**.
 
@@ -103,7 +101,7 @@ public class ParticleSystem {
 Далее мы будем кодировать метод **update**. Обратите внимание, что метод **update** нуждается в текущей частоте кадров в качестве параметра.
 ```java
     void update(long fps) {
-        duration -= 1f/fps;
+        duration -= 1f / fps;
 
         for (Particle p : particles) {
             p.update(fps);
@@ -126,7 +124,6 @@ public class ParticleSystem {
 ```java
     void emitParticles(PointF startPosition) {
         isRunning = true;
-//        duration = 30f; // 30 секунд
         duration = 3f; // 3 секунды
 
         for (Particle p : particles) {
@@ -141,17 +138,18 @@ public class ParticleSystem {
 Последний метод для **ParticleSysytem** - это метод **draw**, который покажет эффект во всей его красе. Метод получает ссылку на **Canvas** и **Paint**, поэтому он может рисовать на том же самом холсте, который **LiveDrawingView** блокирует в своем методе **draw**.
 ```java
     void draw(Canvas canvas, Paint paint) {
-        for (Particle p : particles) {
-//            paint.setARGB(255, random.nextInt(256), random.nextInt(256), random.nextInt(256));
-            paint.setColor(Color.WHITE);
+        if (isRunning) {
+            for (Particle p : particles) {
+                paint.setARGB(255, random.nextInt(256), random.nextInt(256), random.nextInt(256));
 
-            // размер частиц
-            float sizeX = 0;
-            float sizeY = 0;
+                // размер частиц
+                float sizeX = 10;
+                float sizeY = 10;
 
-            float x = p.getPosition().x;
-            float y = p.getPosition().y;
-            canvas.drawRect(x, y, x + sizeX, x + sizeY, paint);
+                float x = p.getPosition().x;
+                float y = p.getPosition().y;
+                canvas.drawRect(x, y, x + sizeX, y + sizeY, paint);
+            }
         }
     }
 ```
@@ -178,7 +176,7 @@ public class ParticleSystem {
     private void update() {
         for (int i = 0; i < particleSystems.size(); i++) {
             if (particleSystems.get(i).isRunning) {
-                particleSystems.get(i).update(FPS);
+                particleSystems.get(i).update(fps);
             }
         }
     }

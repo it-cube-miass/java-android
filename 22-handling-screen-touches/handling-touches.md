@@ -46,7 +46,7 @@
             nextSystem = 0;
         }
 
-        if (togglePauseButton.contains(event.getX(), event.getY())) {
+        if (pauseButton.contains(event.getX(), event.getY())) {
             paused = !paused;
         }
     }
@@ -56,13 +56,13 @@
 ## Обновление printDebugginText
 Добавьте следующий код в метод **printDebuggingText**:
 ```java
-    int y1 = debugStart + debugSize;
-    int y2 = y1 + marginSize + debugSize;
-    int y3 = y2 + marginSize + debugSize;
-    paint.setTextSize(debugSize);
-    canvas.drawText("FPS: " + FPS, 10, y1, paint);
-    canvas.drawText("Systems: "+ nextSystem, 10, y2, paint);
-    canvas.drawText("Particles: " + nextSystem * particlesPerSystem, 10, y3, paint);
+    int yLine2 = yLine1 + marginSize + fontSize;
+    int yLine3 = yLine2 + marginSize + fontSize;
+    paint.setTextSize(fontSize);
+
+    canvas.drawText("fps: " + fps, startX, yLine1, paint);
+    canvas.drawText("Systems: "+ nextSystem, startX, yLine2, paint);
+    canvas.drawText("Particles: " + nextSystem * particlesPerSystem, startX, yLine3, paint);
 ```
 Этот код просто выведет на экран некоторые статистические данные, чтобы сообщить нам, сколько частиц и систем в настоящее время рисуется.
 

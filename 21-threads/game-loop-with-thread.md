@@ -84,7 +84,7 @@ public class LiveDrawingView extends SurfaceView implements Runnable {
 
             long timeThisFrame = System.currentTimeMillis() - frameStartTime;
             if (timeThisFrame > 0) {
-                FPS = MILLIS_IN_SECONDS / timeThisFrame;
+                fps = MS_IN_SECONDS / timeThisFrame;
             }
         }
     }
