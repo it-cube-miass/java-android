@@ -84,6 +84,7 @@
 * [Фрагменты](24-fragments/README.md)
   * [Паттерн MVC](24-fragments/pattern-mvc.md)
   * [Принципы дизайна Android](24-fragments/design-guidelines.md)
+  * [Приложения в реальном мире](24-fragments/real-world-apps.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
