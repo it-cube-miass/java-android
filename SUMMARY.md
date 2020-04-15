@@ -81,6 +81,7 @@
 * [Звуковые эффекты](23-sound-effects/README.md)
   * [Обработка различных версий Android](23-sound-effects/handling-different-versions-android.md)
   * [❗Класс Soundpool](23-sound-effects/class-soundpool.md)
+* [Фрагменты](24-fragments/README.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
