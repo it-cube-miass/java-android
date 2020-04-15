@@ -83,7 +83,7 @@
   * [❗Класс Soundpool](23-sound-effects/class-soundpool.md)
 * [Фрагменты](24-fragments/README.md)
   * [Паттерн MVC](24-fragments/pattern-mvc.md)
-  * [❗Принципы разработки Android]()
+  * [Принципы дизайна Android](24-fragments/design-guidelines.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
