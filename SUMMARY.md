@@ -88,6 +88,7 @@
   * [Детектирование устрайства](24-fragments/device-detection.md)
   * [Спецификаторы конфигурации](24-fragments/configuration-qualifiers.md)
   * [Фрагменты](24-fragments/fragments.md)
+  * [Приложение с фрагментом](24-fragments/fragment-app.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
