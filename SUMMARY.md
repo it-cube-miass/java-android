@@ -90,6 +90,7 @@
   * [Фрагменты](24-fragments/fragments.md)
   * [Приложение с фрагментом](24-fragments/fragment-app.md)
   * [Суть фрагментов](24-fragments/fragment-reality.md)
+* [Пагинация и пролистывание](25-paging-and-swiping/README.md)
 * [J. Введение в ООП](java/oop/README.md)
   * [Игра "Угадай число"](java/oop/guess-game.md)
   * [Ссылки на объекты](java/object-reference/README.md)
